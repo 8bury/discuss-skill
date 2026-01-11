@@ -7,8 +7,6 @@ description: Conducts in-depth technical interviews about features or tasks usin
 
 This skill guides you through conducting comprehensive interviews about features or tasks, then generates detailed specification documents.
 
-**Credit**: Concept inspired by [@filippkowalski on X](https://x.com/filippkowalski)
-
 ## Workflow
 
 ### Phase 1: Initial Context Gathering
