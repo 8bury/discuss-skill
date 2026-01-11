@@ -1,0 +1,8 @@
+{
+  "name": "discuss-skill",
+  "description": "Feature discussion and specification generator through in-depth interviews",
+  "author": {
+    "name": "8bury",
+    "url": "https://github.com/8bury"
+  }
+}
