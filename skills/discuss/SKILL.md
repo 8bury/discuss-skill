@@ -1,6 +1,7 @@
 ---
 name: discuss
 description: Conducts in-depth technical interviews about features or tasks using AskUserQuestion, then generates comprehensive specification documents. Use when the user wants to discuss, plan, or spec out a feature/task in detail.
+allowed-tools: AskUserQuestion, Write, Read
 ---
 
 # Feature Discussion & Specification Generator
@@ -86,98 +87,19 @@ Once the interview is complete, generate a comprehensive specification document 
 
 **Specification Structure:**
 
-```markdown
-# [Feature/Task Name] - Specification
-
-**Created:** [Date]
-**Status:** Draft
-
-## Overview
-
-[Brief summary of the feature/task and its purpose]
-
-## Goals & Objectives
-
-[What this aims to achieve]
-
-## User Stories / Use Cases
-
-[Concrete scenarios and user flows]
-
-## Technical Requirements
-
-### Architecture
-[System design, components, interactions]
-
-### Technology Stack
-[Technologies, frameworks, libraries with justifications]
-
-### Data Model
-[Database schema, data structures, relationships]
-
-### API Design
-[Endpoints, request/response formats, authentication]
-
-### State Management
-[How state is handled across the application]
-
-## UI/UX Requirements (if applicable)
-
-### User Flows
-[Step-by-step user journeys]
-
-### Design Specifications
-[Visual design, components, interactions]
-
-### Accessibility
-[WCAG compliance, keyboard navigation, screen readers]
-
-## Non-Functional Requirements
-
-### Performance
-[Load times, response times, throughput]
-
-### Security
-[Authentication, authorization, data protection]
-
-### Scalability
-[Handling growth, load distribution]
-
-### Reliability
-[Uptime targets, error rates, recovery]
-
-## Edge Cases & Error Handling
-
-[Unusual scenarios, failure modes, error recovery]
-
-## Testing Strategy
-
-[Unit tests, integration tests, e2e tests, acceptance criteria]
-
-## Deployment Plan
-
-[Rollout strategy, feature flags, monitoring]
-
-## Risks & Mitigation
-
-[Identified risks and how to address them]
-
-## Open Questions
-
-[Unresolved items requiring further discussion]
-
-## Timeline & Milestones (if discussed)
-
-[Implementation phases and estimates]
-
-## Success Criteria
-
-[How we measure if this is successful]
-
-## References
-
-[Links to related docs, designs, discussions]
-```
+Use the comprehensive template provided in [spec-template.md](spec-template.md) as your guide. The template includes sections for:
+- Overview and goals
+- User stories and use cases
+- Technical requirements (architecture, tech stack, data model, API design, state management)
+- UI/UX requirements (flows, design, accessibility)
+- Non-functional requirements (performance, security, scalability, reliability)
+- Edge cases and error handling
+- Testing strategy
+- Deployment plan
+- Risks and mitigation
+- Implementation phases
+- Success criteria
+- References
 
 **Important:** Adjust the structure based on what was discussed. Remove sections that aren't relevant, add sections for unique aspects of the feature.
 
