@@ -16,28 +16,36 @@ The `/discuss` skill transforms vague feature ideas into detailed, actionable sp
 
 ## Installation
 
-### Option 1: Local Installation (for personal use)
+### Option 1: Via Marketplace (Recommended)
 
-1. Clone this repository:
+The easiest way to install:
+
+```bash
+/plugin marketplace add 8bury/discuss-skill
+/plugin install discuss-skill@discuss-skill-marketplace
+```
+
+That's it! The skill is now available via `/discuss`
+
+### Option 2: Via Community Marketplace
+
+Submit to [Claude Code Commands Directory](https://claudecodecommands.directory), then users can install:
+
+```bash
+/plugin marketplace add ananddtyagi/cc-marketplace
+/plugin install discuss-skill@cc-marketplace
+```
+
+### Option 3: Manual Installation
+
+For local development or if you prefer manual setup:
+
 ```bash
 cd ~/.claude/skills
 git clone https://github.com/8bury/discuss-skill.git
 ```
 
-2. Restart Claude Code or reload skills
-
-### Option 2: Plugin Installation (for team sharing)
-
-1. Add to your Claude Code plugins directory:
-```bash
-cd ~/.claude/plugins/marketplaces
-git clone https://github.com/8bury/discuss-skill.git
-```
-
-2. Install the plugin:
-```bash
-/plugin install discuss-skill
-```
+Then restart Claude Code.
 
 ## Usage
 

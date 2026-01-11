@@ -1,0 +1,35 @@
+{
+  "name": "discuss-skill-marketplace",
+  "owner": {
+    "name": "8bury",
+    "email": "pedrohen.ds8@gmail.com"
+  },
+  "metadata": {
+    "description": "Feature discussion and specification generator for Claude Code",
+    "version": "1.0.0",
+    "homepage": "https://github.com/8bury/discuss-skill"
+  },
+  "plugins": [
+    {
+      "name": "discuss-skill",
+      "source": "./",
+      "version": "1.0.0",
+      "description": "Conducts in-depth technical interviews about features or tasks, then generates comprehensive specification documents",
+      "author": {
+        "name": "8bury",
+        "url": "https://github.com/8bury"
+      },
+      "category": "documentation",
+      "homepage": "https://github.com/8bury/discuss-skill",
+      "keywords": [
+        "specification",
+        "documentation",
+        "feature-discussion",
+        "interview",
+        "planning",
+        "requirements",
+        "spec-generation"
+      ]
+    }
+  ]
+}

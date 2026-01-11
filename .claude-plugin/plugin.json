@@ -1,8 +1,21 @@
 {
   "name": "discuss-skill",
+  "version": "1.0.0",
   "description": "Feature discussion and specification generator through in-depth interviews",
   "author": {
     "name": "8bury",
     "url": "https://github.com/8bury"
-  }
+  },
+  "homepage": "https://github.com/8bury/discuss-skill",
+  "repository": "https://github.com/8bury/discuss-skill",
+  "license": "MIT",
+  "keywords": [
+    "specification",
+    "documentation",
+    "feature-discussion",
+    "interview",
+    "planning",
+    "requirements"
+  ],
+  "skills": ["./skills"]
 }
